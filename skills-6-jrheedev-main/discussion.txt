@@ -1,0 +1,67 @@
+Runtime
+-------
+
+1)
+
+A) Runtime for does_string_contain_letter:
+Answer: O(n)
+
+
+B) Runtime for contain_letters_in_common:
+Answer: O(n^2)
+
+
+C) Runtime for letters_in_common:
+Answer: O(n)
+
+
+Stacks and Queues
+-----------------
+
+
+2) Which would be a better data structure for creating a Stack: a Linked List or
+   a built-in Python list? Explain why, referencing the runtime requirements for
+   Stack operations (push, pop, etc).
+
+   Answer: Built-in Python list
+
+   Runtime requirements for Stack operations like pop are O(1) and we want to have the capability to remove and add items 
+   from the end. Other runtime characteristics of linked lists that are O(1) are get item by index, insert/delete at beginning in addition to removing/
+   adding items from the end.
+
+
+3) Which would be a better data structure for creating a Queue: a Linked List or
+   a built-in Python list? Explain why, referencing the runtime requirements for
+   Queue methods (enqueue, dequeue, etc).
+
+   Answer: Linked-List is a better data structure because both enqueue and dequeue are O(1) operations. Python lists are O(n) operations and point to an array. To insert or
+   delete an item in a Python list could require shifting all items based on the new addition or deletion to that original list.
+
+
+
+Trees
+-----
+
+4) Using the diagram in the instructions, in what order would a Breadth First
+   Search (BFS) algorithm visit each node  until finding burritos (starting at
+   food)?
+
+   Answer:
+   food > italian > indian > mexican > lasagna > pizza > tikka masala > saag > burritos 
+
+
+5) Using the diagram in the instructions, In what order would a Depth First
+   Search (DFS) algorithm visit each node until finding Chicago-style (starting
+   at food)?
+
+   Answer: 
+   food > mexican > enchiladas > tacos > burritos > indian > saag > tikka masala > italian > pizza > lasagna > sicilian
+   > new york-style > chicago-style 
+
+
+6) How is a binary search tree different from other trees?
+
+   Answer:
+
+   a binary search tree places greater importance on the right node over the left node, making this trait a key differentiator from other trees.
+   
